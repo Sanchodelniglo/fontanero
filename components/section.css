@@ -1,0 +1,10 @@
+section {
+  min-height: 100vh;
+}
+
+@media (max-width: 425px) {
+  .top-section {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+  nav {
+    position: fixed!important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
