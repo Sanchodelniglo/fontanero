@@ -6,4 +6,51 @@
     left: 0;
     z-index: 1030;
   }
+
+  .phone-button-container {
+    height: 80px;
+    width: 100%;
+    position: fixed!important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1031;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone-button-border {
+    height: 100%;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-button-border a {
+    text-decoration: none;
+  }
+
+  .phone-button {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: rgb(47, 204, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-button span {
+    font-size: 42px;
+    color: white;
+  }
+}
+
+@media (min-width: 425px) {
+  .phone-button-container {
+    display: none;
+  }
 }
